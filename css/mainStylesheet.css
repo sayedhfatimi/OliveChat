@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: JackInput;
+	src: url('../fonts/JackInput.ttf');
+}
+*{
+	margin:0;
+	padding:0;
+}
+#headercontainer{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+#header{
+	font-family: JackInput;
+	font-size: 54px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #4B4B4B;
+	background-color: #303030;
+	background-image: url(../images/mainbg.png);
+}
+#headerseperator{
+	background-image: url(../images/headersep.png);
+	background-repeat: repeat-x;
+	margin-top: -1px;
+	height: 34px;
+}
+#notification{
+	height: 30px;
+	background-color: #8b0000;
+	background-image: url(../images/notifbg.png);
+	display: none;
+}
+#content{
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+.postcontainer, #loginform, .infomsg{
+	background-color: #D5D5D5;
+	font-family: JackInput;
+	border-radius:10px;
+	box-shadow: 0px 6px 15px #121212;
+	background-image: url(../images/postbg.png);
+}
+.postcontainer, .infomsg{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+#loginform{
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding: 5px;
+	margin-top: -25px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: -200px;
+}
+.infomsg{
+	color: #F00;
+	text-align: center;
+}
+#menu{
+	font-family: JackInput;
+	color: #4B4B4B;
+	float: right;
+	margin-top: -60px;
+	margin-right: 10px;
+	text-align: right;
+}
+#msgform{
+	background-color: #d5d5d5;
+	height: 50px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #aaaaaa;
+	width: 500px;
+	box-shadow: 0px -2px 10px #4B4B4B;
+	position: fixed;
+	right: 40px;
+	bottom: 0px;
+	background-image: url(../images/postbg.png);
+	padding: 3px;
+}
+#postmsgtxt{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 30px;
+	width: 405px;
+	padding: 3px;
+	color: #303030;
+	margin-left: 10px;
+	background-image: url(../images/postbg.png);
+	font-style: italic;
+}
+.postusr{
+	text-align: right;
+	font-size: 10px;
+}
+.postsubmit, .navbarbtn, .enter{
+	font-family: JackInput;
+	font-size: 18px;
+	color: #d2d2d2;
+	background-image: url(../images/mainbg.png);
+}
+.postsubmit{
+	height: 52px;
+	width: 52px;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.navbarbtn{
+	border: 1px solid #464646;
+	margin: 3px;
+	border-radius:4px;
+}
+.navbarbtn div{
+	padding: 2px;
+	border: 1px solid #B2B2B2;
+	border-radius:3px;
+}
+.navbarbtn:hover{text-shadow: 0px 0px 5px #858585;}
+#enter{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+#enter:hover{text-shadow: 0px 0px 15px #FFFFFF;}
+.postsubmit:hover{text-shadow: 0px 0px 15px #FFFFFF;}
